@@ -1,4 +1,4 @@
-particlesJS({
+vparticles2JS({
     "particles": {
       "number": {
         "value": 276,
@@ -72,11 +72,11 @@ particlesJS({
       "events": {
         "onhover": {
           "enable": true,
-          "mode": "repulse"
+          "mode": "grab"
         },
         "onclick": {
           "enable": true,
-          "mode": "repulse"
+          "mode": "grab"
         },
         "resize": true
       },
