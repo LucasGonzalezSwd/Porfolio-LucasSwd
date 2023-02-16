@@ -23,11 +23,11 @@ import { faFileLines } from "@fortawesome/free-solid-svg-icons";
 
                <div className="flex flex-col items-start text-white ml-4 justify-between h-3/5 ">
                <h1 className="flex text-5xl ml-4  min-[1650px]:ml-8 min-[1650px]:text-6xl ">Hello People!</h1>
-               <p className="  text-xl   min-[1650px]:text-2xl ">My name is <span className="text-yellow-200 font-medium">Lucas Gonzalez</span> and I'm a <span className="text-yellow-200 font-medium">Full Stack Web Developer</span>
+               <p className=" ml-4 text-xl min-[1650px]:ml-8 min-[1650px]:text-2xl ">My name is <span className="text-yellow-200 font-medium">Lucas Gonzalez</span> and I'm a <span className="text-yellow-200 font-medium">Full Stack Web Developer</span>
                 <br />
 
                </p>
-               <div className="flex flex-row self-start ml-4 w-3/5 justify-between min-[1650px]:ml-8">
+               <div className="flex flex-row self-start ml-4 w-2/5 justify-between min-[1650px]:ml-8">
 
                 <a href="https://github.com/LucasGonzalezSwd" target="_blank">
                 <button>
