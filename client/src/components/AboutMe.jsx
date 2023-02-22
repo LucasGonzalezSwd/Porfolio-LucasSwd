@@ -3,7 +3,7 @@ import { NavBar } from './NavBar'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faWhatsapp} from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faFileLines,  faLocationDot, faStar } from "@fortawesome/free-solid-svg-icons";
-import  doc from  "../components/Images/LucasSwd.pdf"
+import  doc from  "../components/Images/LucasGonzalezSwdCv.pdf"
 import "./Styles/about.css"
 
 
@@ -49,7 +49,7 @@ export const AboutMe = () => {
                 </div>
                
                   <div  className='flex flex-row w-1/3 '>
-                  <a href={doc} target="_blank">
+                  <a href={doc} download="Resume Lucas Gonzalez Swd" target="_blank">
                 <button className=' flex  items-center hover:text-yellow-200'>
                 <FontAwesomeIcon className="text-4xl  mr-2 "  icon={faFileLines} />
                  Resume

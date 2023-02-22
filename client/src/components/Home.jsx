@@ -5,7 +5,7 @@ import img from "./Images/fondo2.jpg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import { faFileLines } from "@fortawesome/free-solid-svg-icons";
-import  doc from  "../components/Images/LucasSwd.pdf"
+import  doc from  "../components/Images/LucasGonzalezSwdCv.pdf"
 import './Styles/home.css'
  export const Home = () => {
      return (
@@ -42,7 +42,7 @@ import './Styles/home.css'
                 </button>
                 </a>
                   
-                  <a href={doc} target="_blank">
+                  <a href={doc}  target="_blank" download="Resume Lucas Gonzalez Swd">
                 <button>
                 <FontAwesomeIcon className="min-[1650px]:text-5xl text-4xl text-yellow-100 hover:scale-125 transition-all duration-500 ease-in-out "  icon={faFileLines} />
                </button>
