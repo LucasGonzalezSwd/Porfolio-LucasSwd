@@ -4,17 +4,19 @@ import { Home } from './components/Home';
 import {Projects} from './components/Projects'
 import { AboutMe } from './components/AboutMe';
 import { ContactMe } from './components/ContactMe';
-import { Play } from './components/Play';
+import { Skills } from './components/Skills';
+
 
 function App() {
   return (
     <div className="App">
       <Routes>
        <Route exact path="/"  element={<Home />}/>
-       <Route exact path="/projects" element={<Projects/>}/>
-       <Route exact path="/about" element={<AboutMe/>}/>
-       <Route exact path="/contact" element={<ContactMe/>}/>
-       <Route exact path="/play" element={<Play/>}/>
+       <Route  path="/projects" element={<Projects/>}/>
+       <Route  path="/about" element={<AboutMe/>}/>
+       <Route  path="/contact" element={<ContactMe/>}/>
+       <Route  path="/skills" element={<Skills/>}/>
+      
        </Routes>
     </div>
   );

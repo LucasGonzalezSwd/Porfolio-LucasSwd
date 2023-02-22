@@ -1,0 +1,69 @@
+body{
+    overflow-x: hidden;
+ }
+#moveOne{
+    animation: moverRtoL 1.7s ease-in-out;
+   
+    z-index: 0;
+    overflow: hidden;
+
+}
+#moveTwo{
+    
+   animation: moverLtoR 1.7s ease-in-out;
+  
+   z-index: 0;
+   overflow: hidden;
+}
+#moveThree{
+ 
+    animation: moverBtoTL 1.7s ease-in-out;
+    
+   
+    z-index: 0;
+    overflow: hidden;
+    
+
+}
+
+@keyframes moverRtoL {
+    0%{ 
+       
+       transform: translateX(75vw);
+       opacity: 10%;
+       overflow: hidden;
+    }
+    100%{
+        
+       transform: translateX(0vw);
+       overflow: hidden;
+    }
+}
+
+@keyframes moverLtoR {
+   0%{ 
+       
+      transform: translateX(-75vw);
+      opacity: 10%;
+      overflow: hidden;
+   }
+   100%{
+       
+      transform: translateX(0vw);
+      overflow: hidden;
+   }
+}
+
+
+@keyframes moverBtoTL {
+    0%{
+        
+       transform: translateY(40vw);
+       opacity: 10%;
+       overflow: hidden;
+    }
+    100%{
+       transform: translateY(0vw);
+       overflow: hidden;
+    }
+}

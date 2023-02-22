@@ -1,0 +1,45 @@
+body{
+    overflow-x: hidden;
+ }
+
+#moveA{
+    animation: moverA 2.1s ease-in-out;
+    animation-delay: 0ms;
+    z-index: 10;
+    overflow: hidden;
+
+}
+#moveB{
+    
+    animation: moverB 2.2s linear;
+    animation-delay: 0ms;
+    z-index: 2;
+    overflow: hidden;
+}
+
+@keyframes moverA {
+    0%{ 
+       
+       transform: translateX(150vw);
+       
+       overflow: hidden;
+    }
+    100%{
+        
+       transform: translateX(0vw);
+       overflow: hidden;
+    }
+}
+
+@keyframes moverB {
+    0%{
+      
+       transform: translateX(-82vw);
+       opacity: 10%;
+       overflow: hidden;
+    }
+    100%{
+       transform: translateX(0vw);
+       overflow: hidden;
+    }
+}

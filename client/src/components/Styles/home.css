@@ -1,0 +1,17 @@
+#container-move{
+    animation: mover 1.7s ease-in-out;
+    animation-delay: 0ms;
+  
+  
+}
+@keyframes mover {
+     0%{
+        transform: translateX(75vw);
+        opacity: 10%;
+        overflow: hidden;
+     }
+     100%{
+        transform: translateX(0vw);
+        overflow: hidden;
+     }
+}
