@@ -4,14 +4,42 @@
   
   
 }
+
+#one{
+     animation: movericons  2s infinite ease-in-out;
+}
+#two{
+   animation: movericons  2s infinite ease-in-out;
+}
+#three{
+   animation: movericons  2s infinite ease-in-out;
+}
+
 @keyframes mover {
      0%{
         transform: translateX(75vw);
         opacity: 10%;
         overflow: hidden;
      }
+   
      100%{
         transform: translateX(0vw);
         overflow: hidden;
      }
+}
+
+@keyframes movericons {
+   0%{
+      transform: translateY(1vw);
+      
+      overflow: hidden;
+   }
+   50%{
+      transform: translateY(0vw);
+      overflow: hidden;
+   }
+   100%{
+      transform: translateY(1vw);
+      overflow: hidden;
+   }
 }

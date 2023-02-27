@@ -77,7 +77,7 @@ export const Skills = () => {
                 </button>
                  
 
-                <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss' id='ss'>
+                <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss' >
                  <img className='w-20 h-20 mx-10 mt-14 rounded object-contain' src={HTML} alt=""  id='ss'/>
                 <p className='flex text-xl text-white self-center mt-1' id='ss'>HTML</p>
                 </button>

@@ -38,12 +38,7 @@ export const NavBar = () =>{
                         </Link>
                     
 
-                        <Link to="/contact">
-                    <li className=" mt-10 flex justify-center items-center self-center text-yellow-200 font-medium"> <button className="flex justify-center items-center self-center font-medium border-b border-white p-1 w-4/5 hover:bg-slate-700 hover:bg-opacity-60 hover:shadow-[0_-3px_13px_-3px] hover:shadow-slate-50 transition duration-700 min-[1650px]:mt-8">
-                    <FontAwesomeIcon className="mr-2" icon={faAddressBook}/>  Contact Me
-                        </button >
-                        </li>
-                        </Link>
+                       
 
                       
                        

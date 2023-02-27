@@ -1,0 +1,25 @@
+body{
+    overflow-x: hidden;
+ }
+
+#movepr{
+
+    animation: movepr 2s ease-in-out;
+    animation-delay: 0ms;
+    z-index: 10;
+    overflow: hidden;
+}
+
+@keyframes movepr {
+    0%{ 
+       
+       transform: translateY(55vw);
+       opacity: 0;
+       overflow: hidden;
+    }
+    100%{
+        
+       transform: translateY(0vw);
+       overflow: hidden;
+    }
+}

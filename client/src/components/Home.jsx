@@ -32,19 +32,19 @@ import './Styles/home.css'
 
                 <a href="https://github.com/LucasGonzalezSwd" target="_blank">
                 <button>
-                <FontAwesomeIcon className="min-[1650px]:text-5xl  text-4xl text-yellow-100  hover:scale-125 transition-all duration-500 ease-in-out " icon={faGithub} />
+                <FontAwesomeIcon className="min-[1650px]:text-5xl  text-4xl text-yellow-100  hover:scale-125 transition-all duration-500 ease-in-out " icon={faGithub} id="one" />
                 </button>
                 </a>
                
                 <a href="https://www.linkedin.com/in/lucas-gonzalez-swd/" target="_blank">
                 <button>
-                <FontAwesomeIcon className="min-[1650px]:text-5xl text-4xl text-yellow-100 hover:scale-125 transition-all duration-500 ease-in-out " icon={faLinkedin} />
+                <FontAwesomeIcon className="min-[1650px]:text-5xl text-4xl text-yellow-100 hover:scale-125 transition-all duration-500 ease-in-out " icon={faLinkedin} id="two"/>
                 </button>
                 </a>
                   
                   <a href={doc}  target="_blank" download="Resume Lucas Gonzalez Swd">
                 <button>
-                <FontAwesomeIcon className="min-[1650px]:text-5xl text-4xl text-yellow-100 hover:scale-125 transition-all duration-500 ease-in-out "  icon={faFileLines} />
+                <FontAwesomeIcon className="min-[1650px]:text-5xl text-4xl text-yellow-100 hover:scale-125 transition-all duration-500 ease-in-out "  icon={faFileLines}  id="three"/>
                </button>
                </a>
                </div>
