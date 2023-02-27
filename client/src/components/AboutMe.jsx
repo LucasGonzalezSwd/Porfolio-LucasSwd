@@ -28,7 +28,7 @@ export const AboutMe = () => {
             <div id='moveTwo' className='flex flex-row flex-wrap h-40 rounded p-1  w-4/5 bg-[#092547] z-10 text-white shadow-xl mt-8 min-[1650px]:text-lg'  >
               <div className='flex flex-row flex-wrap items-center ml-10 -mr-10  w-full  '>
               
-              <div  className='flex flex-row w-1/3 min-[1650px]:text-lg'>
+              <div  className='flex flex-row w-1/3 min-[1650px]:text-lg hover:scale-110 transition-all duration-500 ease-in-out ' >
                 <a href="https://www.linkedin.com/in/lucas-gonzalez-swd/" target="_blank">
                 <button className=' flex  items-center  hover:text-yellow-200'>
                 <FontAwesomeIcon className="text-4xl  mr-2" icon={faLinkedin} />
@@ -37,7 +37,7 @@ export const AboutMe = () => {
                 </a>
                 </div>
 
-              <div className='flex flex-row w-1/3'>
+              <div className='flex flex-row w-1/3 hover:scale-110 transition-all duration-500 ease-in-out'>
               <a href="https://github.com/LucasGonzalezSwd" target="_blank">
                 <button className=' flex  items-center hover:text-yellow-200'>
                 <FontAwesomeIcon className="text-4xl  mr-2 " icon={faGithub} />
@@ -48,7 +48,7 @@ export const AboutMe = () => {
                 </a>
                 </div>
                
-                  <div  className='flex flex-row w-1/3 '>
+                  <div  className='flex flex-row w-1/3 hover:scale-110 transition-all duration-500 ease-in-out  '>
                   <a href={doc} download="Resume Lucas Gonzalez Swd" target="_blank">
                 <button className=' flex  items-center hover:text-yellow-200'>
                 <FontAwesomeIcon className="text-4xl  mr-2 "  icon={faFileLines} />
@@ -57,7 +57,7 @@ export const AboutMe = () => {
                </a>
                </div>
               
-               <div className='flex flex-row w-1/3'>
+               <div className='flex flex-row w-1/3 hover:scale-110 transition-all duration-500 ease-in-out'>
               <a  >
                 <button className=' flex  items-center  hover:text-yellow-200'>
                 <FontAwesomeIcon className="text-4xl  mr-2" icon={faEnvelope} />
@@ -67,7 +67,7 @@ export const AboutMe = () => {
                 
                 </a>
                 </div>
-                <div className='flex flex-row w-1/3'>
+                <div className='flex flex-row w-1/3 hover:scale-110 transition-all duration-500 ease-in-out'>
               <a href='https://wa.me/543406418085' target="_blank">
                 <button className=' flex items-center hover:text-yellow-200' >
                 <FontAwesomeIcon className="text-4xl  mr-2 " icon={faWhatsapp} />
@@ -77,7 +77,7 @@ export const AboutMe = () => {
                 
                 </a>
                 </div>
-                <div className='flex flex-row w-1/3'>
+                <div className='flex flex-row w-1/3 hover:scale-110 transition-all duration-500 ease-in-out'>
               <a href="https://goo.gl/maps/xcE27tPpeep8Xts18" target="_blank">
                 <button className=' flex  items-center hover:text-yellow-200'>
                 <FontAwesomeIcon className="text-4xl  mr-2  " icon={faLocationDot} />
