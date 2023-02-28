@@ -19,12 +19,15 @@ export const Projects = () => {
 
                 <div className=' flex flex-col w-full  bg-yellow-200 shadow-[0_-3px_13px_3px] -mt-5 rounded-b-lg z-20'>
                   <div>
-                  <h1 className=' text-3xl mb-3 mt-1 ml-2'>Food Api</h1>
+                  <h1 className=' text-3xl mb-3 mt-1 ml-3'>Food Api</h1>
                   </div>
                   <div className='flex'> 
-                  <button className='w-24 bg h-10 bg-gradient-to-r bg from-slate-800 to-black mb-3 text-white ml-3 rounded-lg hover:scale-105  transition-all ease-in-out duration-300 gap-2'  > Deploy</button>
+                  <a href="https://pi-lucas-gonzalez-foods.vercel.app/" target="_blank">
+                  <button className='w-24 bg h-10 bg-gradient-to-r bg from-slate-800 to-black mb-3 text-white ml-3 rounded-lg hover:scale-105  transition-all ease-in-out duration-300 gap-2'  >Deploy</button>
+                  </a>
+                  <a href="https://github.com/LucasGonzalezSwd/PI-Front-deploy" target="_blank">
                   <button className='w-24 h-10 bg-gradient-to-r from-black to-gray-900 mb-3 text-white ml-3 rounded-lg hover:scale-105  transition-all ease-in-out duration-300 gap-2'>GitHub</button>
-
+                  </a>
                   </div>
                  
                 </div>
@@ -35,7 +38,7 @@ export const Projects = () => {
 
                 <div className=' flex flex-col w-full  bg-yellow-200 shadow-[0_-3px_13px_3px] -mt-5 rounded-b-lg z-20'>
                   <div>
-                  <h1 className=' text-3xl mb-3 mt-1 ml-2'>E-commerce "Mate Express"</h1>
+                  <h1 className=' text-3xl mb-3 mt-1 ml-3'>E-commerce "Mate Express"</h1>
                   </div>
                   <div className='flex'> 
                   

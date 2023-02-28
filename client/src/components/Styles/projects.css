@@ -4,7 +4,7 @@ body{
 
 #movepr{
 
-    animation: movepr 2s ease-in-out;
+    animation: movepr 1.3s ease-in-out;
     animation-delay: 0ms;
     z-index: 10;
     overflow: hidden;

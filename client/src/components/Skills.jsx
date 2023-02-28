@@ -42,130 +42,130 @@ export const Skills = () => {
 
                 <div className='flex flex-wrap justify-center items-center mb-8  z-30' id='moveA'   >
                    <button className='flex flex-col hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
-                 <img className='w-20 h-20 mx-10 mt-14 rounded object-contain' src={React2} alt="" id='ss'/>
+                 <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={React2} alt="" id='ss'/>
                  <p className='flex text-xl text-white self-center mt-1' id='ss'> React</p>
                    </button>
 
                    <button className='flex flex-col hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
-                 <img className='w-20 h-20 mx-10 mt-14 rounded object-contain' src={redux} alt="" id='ss'/>
+                 <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={redux} alt="" id='ss'/>
                  <p className='flex text-xl text-white self-center mt-1' id='ss'> Redux</p>
                    </button>
                 
                 <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
-                 <img className='w-20 h-20 mx-10 mt-14 rounded object-contain' src={JS} alt="" id='ss' />
+                 <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={JS} alt="" id='ss' />
                 <p className='flex text-xl text-white self-center mt-1' id='ss'> JavaScript</p>
                 </button>
 
                 <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
-                 <img className='w-20 h-20 mx-10 mt-14 rounded object-contain' src={node} alt=""  id='ss'/>
+                 <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={node} alt=""  id='ss'/>
                 <p className='flex text-xl text-white self-center mt-1' id='ss'>Node</p>
                 </button>
 
                 <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
-                 <img className='w-20 h-20 mx-10 mt-14 rounded object-contain' src={express} alt="" id='ss'/>
+                 <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={express} alt="" id='ss'/>
                 <p className='flex text-xl text-white self-center mt-1' id='ss'>Express</p>
                 </button>
                 
                 <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
-                 <img className='w-20 h-20 mx-10 mt-14 rounded object-contain' src={postgreSQL} alt="" id='ss'/>
+                 <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={postgreSQL} alt="" id='ss'/>
                 <p className='flex text-xl text-white self-center mt-1' id='ss'>PostgreSQL</p>
                 </button>
                 
                 <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
-                 <img className='w-20 h-20 mx-10 mt-14 rounded object-contain' src={sequelize} alt="" id='ss' />
+                 <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={sequelize} alt="" id='ss' />
                 <p className='flex text-xl text-white self-center mt-1' id='ss'>Sequelize</p>
                 </button>
                  
 
                 <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss' >
-                 <img className='w-20 h-20 mx-10 mt-14 rounded object-contain' src={HTML} alt=""  id='ss'/>
+                 <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={HTML} alt=""  id='ss'/>
                 <p className='flex text-xl text-white self-center mt-1' id='ss'>HTML</p>
                 </button>
 
                 <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
-                 <img className='w-20 h-20 mx-10 mt-14 rounded object-contain' src={CSS} alt=""  id='ss'/>
+                 <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={CSS} alt=""  id='ss'/>
                 <p className='flex text-xl text-white self-center mt-1' id='ss'>CSS</p>
                 </button>
                  
                 <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
-                 <img className='w-20 h-20 mx-10 mt-14 rounded object-contain' src={tailwind} alt=""  id='ss'/>
+                 <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={tailwind} alt=""  id='ss'/>
                  <p className='flex text-xl text-white self-center mt-1' id='ss'>Tailwind</p>
                 </button>
                     
                 <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
-                 <img className='w-20 h-20 mx-10 mt-14 rounded object-contain' src={git} alt=""  id='ss'/>
+                 <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={git} alt=""  id='ss'/>
                 <p className='flex text-xl text-white self-center mt-1' id='ss'>Git</p>
                 </button>
 
                 <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
-                 <img className='w-20 h-20 mx-10 mt-14 rounded object-contain' src={github} alt=""  id='ss'/>
+                 <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={github} alt=""  id='ss'/>
                 <p className='flex text-xl text-white self-center mt-1' id='ss'>GitHub </p>
                 </button>
 
                 <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
-                 <img className='w-20 h-20 mx-10 mt-14 rounded object-contain' src={ReactNative} alt=""  id='ss'/>
+                 <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={ReactNative} alt=""  id='ss'/>
                 <p className='flex text-xl text-white self-center mt-1' id='ss'>React Native </p>
                 </button>
 
 
                 <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
-                 <img className='w-20 h-20 mx-10 mt-14 rounded object-contain' src={TS} alt=""  id='ss'/>
+                 <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={TS} alt=""  id='ss'/>
                 <p className='flex text-xl text-white self-center mt-1' id='ss'>TypeScript </p>
                 </button>
 
                 <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
-                 <img className='w-20 h-20 mx-10 mt-14 rounded object-contain' src={bootstrap} alt=""  id='ss'/>
+                 <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={bootstrap} alt=""  id='ss'/>
                 <p className='flex text-xl text-white self-center mt-1' id='ss'>BootsTrap </p>
                 </button>
                    
 
                 <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
                 
-                 <img className='w-20 h-20 mx-10 mt-14 rounded object-cover' src={npm} alt=""  id='ss'/>
+                 <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-cover' src={npm} alt=""  id='ss'/>
                 <p className='flex text-xl text-white self-center mt-1' id='ss'>NPM </p>
                 </button>
 
                 <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
-                 <img className='w-20 h-20 mx-10 mt-14 rounded object-contain' src={imso3} alt=""  id='ss'/>
+                 <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={imso3} alt=""  id='ss'/>
                 <p className='flex text-xl text-white self-center mt-1' id='ss'>Insomnia </p>
                 </button>
 
                 <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
 
-                 <img className='w-20 h-20 mx-10 mt-14 rounded object-contain'  src={ath} alt=""  id='ss'/>
+                 <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain'  src={ath} alt=""  id='ss'/>
                 <p className='flex text-xl text-white self-center mt-1' id='ss'>Auth0 </p>
                 </button>
 
                 <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
-                 <img className='w-20 h-20 mx-10 mt-14 rounded object-contain' src={clou} alt=""  id='ss'/>
+                 <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={clou} alt=""  id='ss'/>
                 <p className='flex text-xl text-white self-center mt-1' id='ss'>Cloudinary </p>
                 </button>
 
                 <div className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
-                 <img className='w-20 h-20 mx-10 mt-14 rounded object-contain' src={figma} alt=""  id='ss'/>
+                 <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={figma} alt=""  id='ss'/>
                 <p className='flex text-xl text-white self-center mt-1' id='ss'>Figma </p>
                 </div>
 
                 <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
-                 <img className='w-20 h-20 mx-10 mt-14 rounded object-contain' src={scrum} alt=""  id='ss'/>
+                 <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={scrum} alt=""  id='ss'/>
                 <p className='flex text-xl text-white self-center mt-1' id='ss'>SCRUM </p>
                 </button>
 
 
                 <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
-                 <img className='w-20 h-20 mx-10 mt-14 rounded object-contain' src={ora} alt=""  id='ss'/>
+                 <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={ora} alt=""  id='ss'/>
                 <p className='flex text-xl text-white self-center mt-1' id='ss'>Ora </p>
                 </button>
   
                 
                 <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
-                 <img className='w-20 h-20 mx-10 mt-14 rounded object-contain' src={SEO} alt=""  id='ss'/>
+                 <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={SEO} alt=""  id='ss'/>
                 <p className='flex text-xl text-white self-center mt-1' id='ss'>SEO</p>
                 </button>
 
                 <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
                 
-                 <img className='w-20 h-20 mx-10 mt-14 rounded object-contain' src={jest} alt=""  id='ss'/>
+                 <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={jest} alt=""  id='ss'/>
                
                 <p className='flex text-xl text-white self-center mt-1' id='ss'>Jest</p>
                 </button>
