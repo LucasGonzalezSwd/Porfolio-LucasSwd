@@ -13,12 +13,12 @@ import './Styles/home.css'
           <NavBar />
             
 
-         <div className=" flex  justify-center items-center  w-screen h-screen overflow-hidden">
+         <div className=" flex  justify-center items-center  w-screen h-screen overflow-hidden shadow-xl shadow-[#00000030] drop-shadow-2xl">
        
          <div className="flex flex-row w-4/6 h-4/6 bg-[#092547] justify-center items-center rounded-md shadow-xl shadow-[#00000030] drop-shadow-2xl" id='container-move'>
 
-               <div className="flex flex-row ml-4 ">
-               <img className="flex  w-48  h-48  ml-4  min-[1650px]:w-52 min-[1650px]:h-52 rounded-full object-cover" src={img} alt="" />
+               <div className="flex flex-row ml-4 shadow-xl shadow-[#00000030] drop-shadow-2xl">
+               <img className="flex  w-48  h-48  ml-4  min-[1650px]:w-52 min-[1650px]:h-52 rounded-full object-cover shadow-xl shadow-[#00000030] drop-shadow-2xl" src={img} alt="" />
                
                </div>
 
