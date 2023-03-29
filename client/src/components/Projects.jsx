@@ -23,7 +23,7 @@ export const Projects = () => {
                  <p className='  mb-3 mt-1 ml-3'>El Repositorio se encuentra privado por el momento.</p>
                  </div>
                  <div className='flex'> 
-                 <a href="https://proyecto-mz.vercel.app/" target="_blank">
+                 <a href="https://ibizastation.com/" target="_blank">
                  <button className='w-24 bg h-10 bg-gradient-to-r bg from-slate-800 to-black mb-3 text-white ml-3 rounded-lg hover:scale-105  transition-all ease-in-out duration-300 gap-2'  >Deploy</button>
                  </a>
                  {/* <a href="https://github.com/LucasGonzalezSwd/PI-Front-deploy" target="_blank">
