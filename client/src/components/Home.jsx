@@ -5,7 +5,7 @@ import img from "./Images/fondo2.jpg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import { faFileLines } from "@fortawesome/free-solid-svg-icons";
-import  doc from  "../components/Images/doc.pdf"
+import  doc from  "../components/Images/lucasGonzalezSwdCv.pdf"
 import './Styles/home.css'
  export const Home = () => {
      return (
