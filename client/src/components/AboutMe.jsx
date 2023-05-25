@@ -3,7 +3,7 @@ import { NavBar } from './NavBar'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faWhatsapp} from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faFileLines,  faLocationDot, faStar } from "@fortawesome/free-solid-svg-icons";
-import  doc from  "../components/Images/lucasGonzalezSwdCv.pdf"
+import  doc from  "../components/Images/Lucas.pdf"
 import "./Styles/about.css"
 
 
