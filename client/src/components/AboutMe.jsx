@@ -9,13 +9,13 @@ export const AboutMe = () => {
   const certificado = "https://storage.googleapis.com/ibiza-station/Certificatemin.png";
   
   return (
-    <div className="flex w-screen  fondo cursor-pointer mt-[1rem] " >
+    <div className="flex w-screen  fondo cursor-pointer mt-[1rem] max-[400px]:mb-[1rem] " >
    
       <div className=" flex  justify-center items-center w-screen ">
         
-   <div className='flex w-4/5 gap-4 h-full  z-10  mb-4' >
+   <div className='flex max-[400px]:flex-col max-[400px]:w-full w-4/5 gap-4 h-full  z-10  mb-4' >
 
-               <div className='w-1/2 min-[1650px]:text-lg flex p-1 rounded text-black  gap-4  flex-wrap items-center justify-center'>
+               <div className='w-1/2 max-[400px]:w-full min-[1650px]:text-lg flex p-1 rounded text-black  gap-4  flex-wrap items-center justify-center'>
                 <div className='  w-full justify-center items-start flex flex-col pl-[1rem] pt-[0.3rem] text-3xl'>Experience</div>
                 <div className='p-[2rem] shadow-lg shadow-gray-400 w-[17rem] flex flex-col rounded-2xl h-[16rem]'>
                <h2 className=' '> <FontAwesomeIcon icon={faCircle} size="2xs" className=' text-black'/> Food App</h2>
@@ -42,7 +42,7 @@ export const AboutMe = () => {
                 <p className=''>
                 I work as a freelancer, where I developed an end-to-end SPA where you can book your appointment to get a haircut.
                   </p> </div>     
-                <div className=' p-[2rem] shadow-lg shadow-gray-400 flex flex-col rounded-2xl  w-[35rem] mb-[1rem] h-[16rem]'>
+                <div className=' p-[2rem] shadow-lg shadow-gray-400 flex flex-col rounded-2xl max-[400px]:w-[17rem] w-[35rem] mb-[1rem] h-[16rem]'>
                <h2 className=' '> <FontAwesomeIcon icon={faCircle} size="2xs" className=' text-black'/> Calculator App</h2>
                  <p className=''>Sep of 2023 - Sep of 2023</p>
                 <p className=''>
@@ -52,7 +52,7 @@ export const AboutMe = () => {
                </div>
                 
                 
-               <div className='w-1/2 min-[1650px]:text-lg flex p-1 rounded text-black gap-4  flex-wrap items-center justify-center '>
+               <div className='w-1/2 max-[400px]:w-full min-[1650px]:text-lg flex p-1 rounded text-black gap-4  flex-wrap items-center justify-center max-[400px]:mt-[1rem] '>
                 <div className=' w-full justify-center items-centerflex flex-col pl-[1rem]  text-3xl'>Education</div>
                 <div className=' shadow-lg shadow-gray-400 w-[35rem] flex flex-col rounded-2xl h-1/2 '>
                
