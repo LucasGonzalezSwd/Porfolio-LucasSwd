@@ -1,16 +1,19 @@
   import React from "react"
   
   import { NavBar } from "../components/NavBar"
-  import img from "./Images/fondo2.jpg"
+ 
   import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
   import { faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
   import { faFileLines } from "@fortawesome/free-solid-svg-icons";
-  import  doc from  "../components/Images/Lucas.pdf"
+  import  doc from  "../components/Images/LucasGonzalezCV.pdf"
   import './Styles/home.css'
   import { AboutMe } from "./AboutMe";
   import { Skills } from "./Skills";
   import { Projects } from "./Projects";
   export const Home = () => {
+
+    const img = "https://storage.googleapis.com/ibiza-station/perfil.jpg"; 
+
       return (
           <div className="flex flex-col h-full w-screen fondo">
             <div className="flex justify-center mb-[1rem]">

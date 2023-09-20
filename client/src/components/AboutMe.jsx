@@ -1,11 +1,13 @@
 import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faCircle } from "@fortawesome/free-solid-svg-icons";
-import certificado from './Images/certificado.png'
 import "./Styles/about.css"
 import './Styles/home.css'
 
 export const AboutMe = () => {
+
+  const certificado = "https://storage.googleapis.com/ibiza-station/Certificatemin.png";
+  
   return (
     <div className="flex w-screen  fondo cursor-pointer mt-[1rem] " >
    
