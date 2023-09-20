@@ -15,8 +15,8 @@
     const img = "https://storage.googleapis.com/ibiza-station/perfil.jpg"; 
 
       return (
-          <div className="flex flex-col h-full w-screen fondo">
-            <div className="flex justify-center mb-[1rem]">
+          <div className="flex fondo flex-col h-full w-screen ">
+            <div className="flex max-[840px]:mb-[5.8rem] justify-center mb-[1rem]">
             <NavBar />
             </div>
               
