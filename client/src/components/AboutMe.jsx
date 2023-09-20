@@ -30,7 +30,7 @@ export const AboutMe = () => {
                 Soy Henry bootcamp final project. Develop the front-end of the e-commerce together with my team.
                   </p> </div>
 
-                <div className=' p-[2rem] shadow-lg shadow-gray-400 w-[17rem] max-[1600px]:w-[15rem] flex flex-col rounded-2xl h-[16rem]'>
+                <div className=' p-[1.5rem] shadow-lg shadow-gray-400 w-[17rem] max-[1600px]:w-[15rem] flex flex-col rounded-2xl h-[16rem]'>
                <h2 className=''> <FontAwesomeIcon icon={faCircle} size="2xs" className=' text-black'/> Ibiza Station</h2>
                  <p className=''>Feb of 2023 - Mar of 2023</p>
                 <p className=''>
