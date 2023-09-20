@@ -19,7 +19,7 @@
             </div>
               
 
-          <div className=" flex  justify-center items-center  w-screen h-screen overflow-hidden " id="home" >
+          <div className=" flex  justify-center items-center  w-screen h-screen " id="home" >
         
           <div className="flex  max-[400px]:flex-col  flex-row w-4/6 h-4/6 justify-center items-center rounded-md">
 
@@ -50,7 +50,7 @@
                 </div> 
                 </div>
                     
-                <div className="flex w-3/5  max-[400px]:w-full pl-[1rem]  max-[400px]:pl-0 max-[400px]:pt-[12rem] justify-start max-[400px]:justify-center  items-center text-black h-full max-[400px]:pb-[18rem] ">
+                <div className="flex w-3/5  max-[400px]:w-full pl-[1rem]  max-[400px]:pl-0 max-[400px]:pt-[12rem] justify-start max-[400px]:justify-center  items-center text-black h-full max-[400px]:pb-[16rem] max-[400px]:mb-[3rem] ">
                
                 <img className="flex max-[1650px]:w-52 max-[1650px]:h-52  min-[1650px]:w-56 min-[1650px]:h-56 rounded-full object-cover shadow-2xl shadow-[#000000] drop-shadow-2xl" src={img} alt="" />
                 

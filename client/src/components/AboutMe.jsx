@@ -11,7 +11,7 @@ export const AboutMe = () => {
   return (
     <div className="flex w-screen  fondo cursor-pointer mt-[1rem] max-[400px]:mb-[1rem] " >
    
-      <div className=" flex  justify-center items-center w-screen ">
+      <div className=" flex   justify-center items-center w-screen ">
         
    <div className='flex max-[400px]:flex-col max-[400px]:w-full w-4/5 gap-4 h-full  z-10  mb-4' >
 
