@@ -52,7 +52,7 @@
                 </div> 
                 </div>
                     
-                <div className="flex w-3/5  max-[400px]:w-full pl-[1rem]  max-[400px]:pl-0 max-[400px]:pt-[10rem] justify-start max-[400px]:justify-center  items-center text-black h-full max-[400px]:pb-[14rem] ">
+                <div className="flex w-3/5  max-[400px]:w-full pl-[1rem]  max-[400px]:pl-0 max-[400px]:pt-[12rem] justify-start max-[400px]:justify-center  items-center text-black h-full max-[400px]:pb-[18rem] ">
                
                 <img className="flex max-[1650px]:w-52 max-[1650px]:h-52  min-[1650px]:w-56 min-[1650px]:h-56 rounded-full object-cover shadow-2xl shadow-[#000000] drop-shadow-2xl" src={img} alt="" />
                 
@@ -60,7 +60,7 @@
               </div>
             </div>
             
-            <div className="" id="about">
+            <div className="max-[400px]:mt-[1rem]" id="about">
               <AboutMe/>
             </div>
 
