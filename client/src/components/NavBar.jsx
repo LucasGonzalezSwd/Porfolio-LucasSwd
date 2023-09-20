@@ -17,7 +17,7 @@ export const NavBar = () =>{
       };
 
      return(
-        <div className="fixed w-5/12 min-[1650px]:text-lg bg-[#000000a6] shadow-lg shadow-purple-300 h-[3.4rem] rounded-full mt-[2.2rem] max-[400px]:mt-[1rem] max-[400px]:w-full  z-20">
+        <div className="fixed w-5/12 min-[1650px]:text-lg bg-[#000000a6] shadow-lg shadow-purple-300 h-[3.4rem] rounded-full mt-[2.2rem] max-[400px]:mt-[1rem] max-[400px]:w-full  max-[450px]:mt-[1.3rem] max-[450px]:w-full z-20">
           
             <nav  className=" flex w-full h-full  text-white ">
                 <ul className="flex w-full h-full items-center justify-evenly  ">
