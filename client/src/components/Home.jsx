@@ -1,7 +1,5 @@
   import React from "react"
-  
   import { NavBar } from "../components/NavBar"
- 
   import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
   import { faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
   import { faFileLines } from "@fortawesome/free-solid-svg-icons";
@@ -16,14 +14,14 @@
 
       return (
           <div className="flex fondo flex-col h-full w-screen ">
-            <div className="flex max-[840px]:mb-[5.8rem] justify-center mb-[1rem]">
+            <div className="flex max-[840px]:mb-[5.8rem] justify-center mb-[1rem]  ">
             <NavBar />
             </div>
               
 
           <div className=" flex  justify-center items-center  w-screen h-screen overflow-hidden " id="home" >
         
-          <div className="flex  max-[400px]:flex-col flex-row w-4/6 h-4/6 justify-center items-center rounded-md">
+          <div className="flex  max-[400px]:flex-col  flex-row w-4/6 h-4/6 justify-center items-center rounded-md">
 
                 <div className="flex flex-col w-full h-full items-center max-[400px]:pl-[1.5rem] max-[400px]:p-[0rem] max-[400px]:pt-[13.5rem]  p-[2.5rem] pl-[3.5rem] justify-center">
                 <h1 className="flex w-full items-start justify-start  text-5xl  min-[1650px]:text-6xl ">Hello People!</h1>

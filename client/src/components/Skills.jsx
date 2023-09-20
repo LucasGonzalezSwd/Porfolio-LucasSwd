@@ -43,7 +43,7 @@ export const Skills = () => {
             <div className='w-4/5 gap-4 max-[400px]:flex-col max-[400px]:w-full  flex pb-[2rem] mb-[5rem] mt-[5rem] rounded-xl h-full z-10' >
                 
                 <div className='w-1/2 max-[400px]:w-full min-[1650px]:text-lg flex   text-black rounded-xl shadow-lg shadow-gray-400 gap-4  flex-wrap items-center justify-center pb-[2rem]  max-[400px]:mb-[2.5rem]'  >
-                <div  className='w-full justify-center items-start flex flex-col pl-[1rem] pt-[0.3rem] text-3xl'>{"< Skills Front-end/>"}</div>
+                <div  className='w-full justify-center max-[400px]:items-center  items-start flex flex-col pl-[1rem] pt-[0.3rem] text-3xl'>{"< Skills Front-end/>"}</div>
                 {/* front */}
                 <button className='flex flex-col hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
                  <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={React2} alt="" id='ss'/>
@@ -123,7 +123,7 @@ export const Skills = () => {
 
                
                <div className='w-1/2 max-[400px]:w-full min-[1650px]:text-lg flex   text-black shadow-lg shadow-gray-400 gap-4  flex-wrap  rounded-xl  items-center justify-center pb-[2rem] max-[400px]:mb-[1rem] '>
-               <div  className='w-full justify-center items-start flex flex-col pl-[1rem] pt-[0.3rem] text-3xl'>{"< Skills Back-end />"}</div>
+               <div  className='w-full justify-center max-[400px]:items-center items-start flex flex-col pl-[1rem] pt-[0.3rem] text-3xl'>{"< Skills Back-end />"}</div>
                <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
                  <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={node} alt=""  id='ss'/>
                 <p className='flex text-xl text-black self-center mt-1' id='ss'>Node</p>

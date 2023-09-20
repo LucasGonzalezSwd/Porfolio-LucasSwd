@@ -1,7 +1,15 @@
-body{
+body {
+    margin: 0;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
- }
-
+  }
+  @media screen and (max-width: 400px) {
+    body {
+      overflow-x: hidden;
+    }
+  }
 #moveA{
     animation: moverA 1.7s ease-in-out;
     animation-delay: 0ms;
