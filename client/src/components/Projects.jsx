@@ -1,116 +1,110 @@
 import React from 'react'
-import { NavBar } from './NavBar'
 import backimg from "./Images/foodapi1.png"
 import backimg2 from "./Images/ecommerce3.png"
 import backimg1 from "./Images/ibiza.png"
 import backimg4 from "./Images/barbers.png"
+import backimg3 from "./Images/calc.jpg"
 import "./Styles/projects.css"
-
+import './Styles/home.css'
 export const Projects = () => {
   return (
-    <div className="flex flex-row  w-screen box-border bg-gradient-to-r from-gray-600 to-gray-900">
-      <NavBar/>
-      <div className=" flex  justify-center w-screen mt-8 mb-4  ">
-              <div className='flex flex-col justify-center items-center w-4/5 bg-[#092547] z-10 rounded h-full' id='movepr'>
+    <div className="">
+      
+      <div className=" flex justify-center w-screen mt-[1rem] mb-[1rem] ">
+              <div className='flex flex-col justify-center items-center rounded-xl gap-[1.8rem]  w-4/5 z-10 mb-[1rem] h-full cursor-pointer' >
                 
-              <p  className='flex self-start text-white text-3xl mt-4  ml-4'>{"< Projects />"}</p>
-
-              <div  className='flex flex-col items-center justify-center rounded-lg  mt-8 mb-8 w-4/6 h-fit hover:scale-105  transition-all ease-in-out duration-500 gap-2' >
-               
-               <img className='flex self-center w-fit h-fit object-cover  shadow-[0_-3px_13px_2px] rounded-lg ' src={backimg1} alt="" />
-
-               <div className=' flex flex-col w-full  bg-yellow-200 shadow-[0_-3px_13px_3px] -mt-5 rounded-b-lg z-20'>
-                 <div>
-                 <h1 className=' text-3xl mb-3 mt-1 ml-3'>Trabajo Freelance</h1>
-                 <p className='  mb-3 mt-1 ml-3'>El Repositorio se encuentra privado por el momento.</p>
-                 </div>
-                 <div className='flex'> 
-                 <a href="https://ibizastation.com/" target="_blank">
-                 <button className='w-24 bg h-10 bg-gradient-to-r bg from-slate-800 to-black mb-3 text-white ml-3 rounded-lg hover:scale-105  transition-all ease-in-out duration-300 gap-2'  >Deploy</button>
-                 </a>
-                 {/* <a href="https://github.com/LucasGonzalezSwd/PI-Front-deploy" target="_blank">
-                 <button className='w-24 h-10 bg-gradient-to-r from-black to-gray-900 mb-3 text-white ml-3 rounded-lg hover:scale-105  transition-all ease-in-out duration-300 gap-2'>GitHub</button>
-                 </a> */}
-                 </div>
-                
-               </div>
+                <div className='flex w-full '>
+                <p  className=' text-black text-3xl pt-[1.2rem] '>{"< Projects />"}</p>
                 </div>
+                <div className='flex w-full gap-4'>
+                  <div className='flex w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500  h-full '>
+                       <img className='' src={backimg3} alt="" />
+                  </div>
+                  <div className='flex flex-col w-1/3 shadow-lg shadow-gray-400 rounded-xl  p-[1.8rem]'>
+                      <h1 className='text-3xl'>Calculator App</h1>
+                      <p className='mt-[1rem]'>
+                      This application has the traditional functions of a calculator, it was developed with Next.js and React. The styles were made with Tailwind CSS to make it faster and more responsive. It has a functional test carried out with Jest and Testing Library. It also has strong typing to avoid errors and improve future code maintenance with Typescript.
+                      </p>
+                      <div className='flex items-end  h-full gap-[1.6rem] pb-[1.5rem]'>
+                        <a href="https://calculadora-next-js.vercel.app/" target='_blank' rel='noreferrer'>
+                        <button className='bg-[#3699a0b9] rounded-lg p-[0.5rem] hover:scale-105 transition-all ease-in-out duration-300 w-[6rem]'>Deploy</button></a>
+                        <a href="https://github.com/LucasGonzalezSwd/Calculadora" target='_blank' rel='noreferrer'>
+                        <button  className='bg-[#3699a0b9] rounded-lg p-[0.5rem] hover:scale-105 transition-all ease-in-out duration-300 w-[6rem]'>GitHub</button></a>
+                      </div>
 
-                <div  className='flex flex-col items-center justify-center rounded-lg  mt-8 mb-8 w-4/6 h-fit hover:scale-105  transition-all ease-in-out duration-500 gap-2' >
-               
-               <img className='flex self-center w-fit h-fit object-cover  shadow-[0_-3px_13px_2px] rounded-lg ' src={backimg4} alt="" />
-
-               <div className=' flex flex-col w-full  bg-yellow-200 shadow-[0_-3px_13px_3px] -mt-5 rounded-b-lg z-20'>
-                 <div>
-                 <h1 className=' text-3xl mb-3 mt-1 ml-3'>Trabajo Freelance</h1>
-                 <p className='  mb-3 mt-1 ml-3'></p>
-                 </div>
-                 <div className='flex'> 
-                 <a href="https://www.barbershopclub.hair" target="_blank">
-                 <button className='w-24 bg h-10 bg-gradient-to-r bg from-slate-800 to-black mb-3 text-white ml-3 rounded-lg hover:scale-105  transition-all ease-in-out duration-300 gap-2'  >Deploy</button>
-                 </a>
-                 {/* <a href="https://github.com/LucasGonzalezSwd/PI-Front-deploy" target="_blank">
-                 <button className='w-24 h-10 bg-gradient-to-r from-black to-gray-900 mb-3 text-white ml-3 rounded-lg hover:scale-105  transition-all ease-in-out duration-300 gap-2'>GitHub</button>
-                 </a> */}
-                 </div>
-                
-               </div>
+                  </div>
                 </div>
-
-
-                 <div  className='flex flex-col items-center justify-center rounded-lg  mt-8 mb-8 w-4/6 h-fit hover:scale-105  transition-all ease-in-out duration-500 gap-2' >
-               
-                <img className='flex self-center w-fit h-fit object-cover  shadow-[0_-3px_13px_2px] rounded-lg ' src={backimg} alt="" />
-
-                <div className=' flex flex-col w-full  bg-yellow-200 shadow-[0_-3px_13px_3px] -mt-5 rounded-b-lg z-20'>
-                  <div>
-                  <h1 className=' text-3xl mb-3 mt-1 ml-3'>Food Api</h1>
+                <div className='flex w-full gap-4'>
+                  <div className='flex w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500 h-full '>
+                       <img className='' src={backimg1} alt="" />
                   </div>
-                  <div className='flex'> 
-                  <a href="https://pi-lucas-gonzalez-foods.vercel.app/" target="_blank">
-                  <button className='w-24 bg h-10 bg-gradient-to-r bg from-slate-800 to-black mb-3 text-white ml-3 rounded-lg hover:scale-105  transition-all ease-in-out duration-300 gap-2'  >Deploy</button>
-                  </a>
-                  <a href="https://github.com/LucasGonzalezSwd/PI-Front-deploy" target="_blank">
-                  <button className='w-24 h-10 bg-gradient-to-r from-black to-gray-900 mb-3 text-white ml-3 rounded-lg hover:scale-105  transition-all ease-in-out duration-300 gap-2'>GitHub</button>
-                  </a>
+                  <div className='flex flex-col w-1/3 shadow-lg shadow-gray-400 rounded-xl  p-[1.8rem]'>
+                      <h1 className='text-3xl'>Ibiza Station</h1>
+                      <p className='mt-[1rem]'>
+                  Develop a single page application end to end. Where you could buy a ticket for an event. At the time of purchasing, it notified you by email and when you made the payment you received the ticket in QR format.
+                      </p>
+                      <div className='flex items-end  h-full gap-[1.6rem] pb-[1.5rem]'>
+                        <a href="https://ibizastation.com/" target='_blank' rel='noreferrer'>
+                        <button className='bg-[#3699a0b9] rounded-lg p-[0.5rem] hover:scale-105 transition-all ease-in-out duration-300 w-[6rem]'>Deploy</button></a>
+                        
+                      </div>
+
                   </div>
-                 
                 </div>
-                 </div>
-                 <div  className='flex flex-col items-center justify-center rounded-lg  mt-8 mb-8 w-4/6  h-fit hover:scale-105  transition-all ease-out duration-500 gap-2'>
-               
-                <img className='flex self-center w-fit h-fit object-cover  shadow-[0_-3px_13px_2px] rounded-lg  ' src={backimg2} alt="" />
-
-                <div className=' flex flex-col w-full  bg-yellow-200 shadow-[0_-3px_13px_3px] -mt-5 rounded-b-lg z-20'>
-                  <div>
-                  <h1 className=' text-3xl mb-3 mt-1 ml-3'>E-commerce "Mate Express"</h1>
+                <div className='flex w-full gap-4'>
+                  <div className='flex w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500 h-full '>
+                       <img className='' src={backimg4} alt="" />
                   </div>
-                  <div className='flex'> 
-                  
-                  <a href="https://pf-front-deploy2.vercel.app/" target="_blank">
-                  <button className='w-24 bg h-10 bg-gradient-to-r bg from-slate-800 to-black mb-3 text-white ml-3 rounded-lg hover:scale-105  transition-all ease-out duration-300 gap-2'  > Deploy</button>
-                  </a>
+                  <div className='flex flex-col w-1/3 shadow-lg shadow-gray-400 rounded-xl  p-[1.8rem]'>
+                      <h1 className='text-3xl'>BarberShop Club</h1>
+                      <p className='mt-[1rem]'>
+                      Develop a single page application end to end. Where you can reserve your appointment to get a haircut, and other services offered by barbershops. When you reserve your appointment, it notifies you to the email with which you made the reservation. It has an admin panel for the barber, where he can manage shifts and delete or reschedule.
+                      </p>
+                      <div className='flex items-end  h-full gap-[1.6rem] pb-[1.5rem]'>
+                        <a href="https://www.barbershopclub.hair/" target='_blank' rel='noreferrer'>
+                        <button className='bg-[#3699a0b9] rounded-lg p-[0.5rem] hover:scale-105 transition-all ease-in-out duration-300 w-[6rem]'>Deploy</button></a>
+                       
+                      </div>
 
-
-                 <a href="https://github.com/LucasGonzalezSwd/Proyecto-Final-Front" target="_blank">
-                  <button className='w-24 h-10 bg-gradient-to-r from-black to-gray-900 mb-3 text-white ml-3 rounded-lg hover:scale-105  transition-all ease-in-out duration-300 gap-2'>GitHub</button> 
-                  </a>
-              
                   </div>
-                  
-                 
                 </div>
-                
-                 </div>
-                 
-                
+                <div className='flex w-full gap-4'>
+                  <div className='flex w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500 h-full '>
+                       <img className='' src={backimg2} alt="" />
+                  </div>
+                  <div className='flex flex-col w-1/3 shadow-lg shadow-gray-400 rounded-xl  p-[1.8rem]'>
+                      <h1 className='text-3xl'>Ecommerce <br />Mate Express</h1>
+                      <p className='mt-[1rem]'> 
+                      This is a SPA carried out as a final project in the Soy Henry bootcamp. In it I participated with the team that took charge of the front-end performing tasks such as the shopping cart, styles, and admin panel.
+                      </p>
+                      <div className='flex items-end  h-full gap-[1.6rem] pb-[1.5rem]'>
+                      
+                      </div>
 
+                  </div>
+                </div>
+                <div className='flex w-full gap-4'>
+                  <div className='flex w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500 h-full '>
+                       <img className='' src={backimg} alt="" />
+                  </div>
+                  <div className='flex flex-col w-1/3 shadow-lg shadow-gray-400 rounded-xl  p-[1.8rem]'>
+                      <h1 className='text-3xl'>Food App</h1>
+                      <p className='mt-[1rem]'>
+                     
+                      Individual final project of the soy henry bootcamp, where I carried out an end-to-end SPA on recipes, with the functions of filtering by recipe name, recipe type, creation of a recipe, and deletion, among other functions.
+                      </p>
+                      <div className='flex items-end  h-full gap-[1.6rem] pb-[1.5rem]'>
+                        <a href="https://pi-lucas-gonzalez-foods.vercel.app/" target='_blank' rel='noreferrer'>
+                        <button className='bg-[#3699a0b9] rounded-lg p-[0.5rem] hover:scale-105 transition-all ease-in-out duration-300 w-[6rem]'>Deploy</button></a>
+                       
+                      </div>
 
-
-
- 
-              </div>
-      </div>
+                  </div>
+                </div>
+               
+             
+         </div>
+    </div>
     </div>
   )
 }
