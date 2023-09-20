@@ -17,15 +17,15 @@ export const Projects = () => {
                 <p  className=' text-black text-3xl pt-[1.2rem] '>{"< Projects />"}</p>
                 </div>
                 <div className='flex max-[400px]:flex-col max-[450px]:flex-col w-full gap-[1rem]  '>
-                  <div className='flex max-[450px]:w-full  max-[400px]:w-full w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500 max-[450px]:h-full  max-[400px]:h-full h-full'>
+                  <div className='flex max-[450px]:w-full  max-[400px]:w-full w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500 max-[450px]:h-full max-[400px]:h-full h-full '>
                        <img className='' src={backimg3} alt="" />
                   </div>
-                  <div className='flex flex-col max-[450px]:w-full   max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl  p-[1.8rem]'>
+                  <div className='flex flex-col max-[450px]:w-full   max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl p-[0.5rem]'>
                       <h1 className='text-3xl  '>Calculator App</h1>
                       <p className='mt-[1rem] max-[400px]:text-ms max-[450px]:text-ms'>
                       This application has the traditional functions of a calculator, it was developed with Next.js and React. The styles were made with Tailwind CSS to make it faster and more responsive. It has a functional test carried out with Jest and Testing Library. It also has strong typing to avoid errors and improve future code maintenance with Typescript.
                       </p>
-                      <div className='flex items-end  h-full gap-[1.6rem] max-[450px]:mt-[1.8rem] max-[400px]:mt-[1.5rem] pb-[1.5rem]'>
+                      <div className='flex items-end  h-full gap-[1.6rem] max-[450px]:mt-[1.8rem] max-[400px]:mt-[1.5rem] pb-[1rem]'>
                         <a href="https://calculadora-next-js.vercel.app/" target='_blank' rel='noreferrer'>
                         <button className='bg-[#3699a0b9] rounded-lg p-[0.5rem] hover:scale-105 transition-all ease-in-out duration-300 w-[6rem]'>Deploy</button></a>
                         <a href="https://github.com/LucasGonzalezSwd/Calculadora" target='_blank' rel='noreferrer'>
@@ -38,12 +38,12 @@ export const Projects = () => {
                   <div className='flex  max-[450px]:w-full  max-[400px]:w-full w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500 max-[450px]:h-full  max-[400px]:h-full h-full'>
                        <img className='' src={backimg1} alt="" />
                   </div>
-                  <div className='flex flex-col  max-[450px]:w-full   max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl  p-[1.8rem]'>
+                  <div className='flex flex-col  max-[450px]:w-full   max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl  p-[0.5rem]'>
                       <h1 className='text-3xl'>Ibiza Station</h1>
                       <p className='mt-[1rem]'>
                   Develop a single page application end to end. Where you could buy a ticket for an event. At the time of purchasing, it notified you by email and when you made the payment you received the ticket in QR format.
                       </p>
-                      <div className='flex items-end  h-full gap-[1.6rem] max-[400px]:mt-[1.8rem] max-[450px]:mt-[1.5rem] pb-[1.5rem]'>
+                      <div className='flex items-end  h-full gap-[1.6rem] max-[400px]:mt-[1.8rem] max-[450px]:mt-[1.5rem] pb-[0.5rem]'>
                         <a href="https://ibizastation.com/" target='_blank' rel='noreferrer'>
                         <button className='bg-[#3699a0b9] rounded-lg p-[0.5rem] hover:scale-105 transition-all ease-in-out duration-300 w-[6rem]'>Deploy</button></a>
                         
@@ -55,12 +55,12 @@ export const Projects = () => {
                   <div className='flex  max-[450px]:w-full   max-[400px]:w-full w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500  max-[450px]:h-full  max-[400px]:h-full h-full'>
                        <img className='' src={backimg4} alt="" />
                   </div>
-                  <div className='flex flex-col max-[450px]:w-full  max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl  p-[1.8rem]'>
+                  <div className='flex flex-col max-[450px]:w-full  max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl  p-[0.5rem] '>
                       <h1 className='text-3xl'>BarberShop Club</h1>
                       <p className='mt-[1rem]'>
                       Develop a single page application end to end. Where you can reserve your appointment to get a haircut, and other services offered by barbershops. When you reserve your appointment, it notifies you to the email with which you made the reservation. It has an admin panel for the barber, where he can manage shifts and delete or reschedule.
                       </p>
-                      <div className='flex max-[400px]:mt-[1.5rem] max-[450px]:mt-[1.8rem] items-end  h-full gap-[1.6rem] pb-[1.5rem]'>
+                      <div className='flex max-[400px]:mt-[1.5rem] max-[450px]:mt-[1.8rem] items-end  h-full gap-[1.6rem] pb-[1rem]'>
                         <a href="https://www.barbershopclub.hair/" target='_blank' rel='noreferrer'>
                         <button className='bg-[#3699a0b9]  rounded-lg p-[0.5rem] hover:scale-105 transition-all ease-in-out duration-300 w-[6rem]'>Deploy</button></a>
                        
@@ -72,12 +72,12 @@ export const Projects = () => {
                   <div className='flex  max-[450px]:w-full  max-[400px]:w-full w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500  max-[450px]:h-full max-[400px]:h-full h-full '>
                        <img className='' src={backimg2} alt="" />
                   </div>
-                  <div className='flex flex-col max-[450px]:w-full  max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl  p-[1.8rem]'>
+                  <div className='flex flex-col max-[450px]:w-full  max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl  p-[0.5rem]'>
                       <h1 className='text-3xl'>Ecommerce <br />Mate Express</h1>
                       <p className='mt-[1rem]'> 
                       This is a SPA carried out as a final project in the Soy Henry bootcamp. In it I participated with the team that took charge of the front-end performing tasks such as the shopping cart, styles, and admin panel.
                       </p>
-                      <div className='flex items-end  h-full gap-[1.6rem] pb-[1.5rem]'>
+                      <div className='flex items-end  h-full gap-[1.6rem] pb-[1.6rem]'>
                       
                       </div>
 
@@ -87,13 +87,13 @@ export const Projects = () => {
                   <div className='flex max-[450px]:w-full  max-[400px]:w-full w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500 max-[450px]:h-full  max-[400px]:h-full h-full  '>
                        <img className='' src={backimg} alt="" />
                   </div>
-                  <div className='flex flex-col max-[450px]:w-full  max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl  p-[1.8rem]'>
+                  <div className='flex flex-col max-[450px]:w-full  max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl  p-[0.5rem]'>
                       <h1 className='text-3xl'>Food App</h1>
                       <p className='mt-[1rem]'>
                      
                       Individual final project of the soy henry bootcamp, where I carried out an end-to-end SPA on recipes, with the functions of filtering by recipe name, recipe type, creation of a recipe, and deletion, among other functions.
                       </p>
-                      <div className='flex max-[450px]:mt-[1.8rem] max-[400px]:mt-[1.5rem] items-end  h-full gap-[1.6rem] pb-[1.5rem]'>
+                      <div className='flex max-[450px]:mt-[1.8rem] max-[400px]:mt-[1.5rem] items-end  h-full gap-[1.6rem] pb-[1rem]'>
                         <a href="https://pi-lucas-gonzalez-foods.vercel.app/" target='_blank' rel='noreferrer'>
                         <button className='bg-[#3699a0b9] rounded-lg p-[0.5rem] hover:scale-105 transition-all ease-in-out duration-300 w-[6rem]'>Deploy</button></a>
                        
