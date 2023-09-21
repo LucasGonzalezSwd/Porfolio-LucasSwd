@@ -23,7 +23,7 @@
         
           <div className="flex  max-[400px]:flex-col max-[450px]:flex-col  flex-row w-4/6 h-4/6 justify-center items-center rounded-md">
 
-                <div className="flex  max-[400px]:mt-[10rem] max-[450px]:mt-[10rem] flex-col w-full h-full items-center max-[400px]:pl-[1.5rem] max-[400px]:p-[0rem] max-[400px]:pt-[13.5rem] max-[450px]:pl-[1.5rem] max-[450px]:p-[0rem] max-[450px]:pt-[14.5rem] p-[2.5rem] pl-[3.5rem] justify-center ">
+                <div className="flex  max-[400px]:mt-[10rem] max-[450px]:mt-[10rem] flex-col w-full h-full items-center max-[400px]:pl-[1.5rem] max-[400px]:p-[0rem] max-[400px]:pt-[11.5rem] max-[450px]:pl-[1.5rem] max-[450px]:p-[0rem] max-[450px]:pt-[11.5rem] p-[2.5rem] pl-[3.5rem] justify-center ">
                 <h1 className="flex w-full items-start justify-start  text-5xl  min-[1650px]:text-6xl ">Hello People!</h1>
                 <br />
                 <p className=' text-base min-[1650px]:text-xl '> My name is <span className='text-black'>Lucas Gonzalez</span> and I'm a Full Stack Developer from Argentina. I have experience working with JavaScript, React js, Redux, NodeJS, Typescript, Jest, Express, sequelize, MySql, PostgreSql, among other technologies. I can code a website end-to-end.
