@@ -19,7 +19,7 @@
             </div>
               
 
-          <div className=" flex  justify-center items-center  w-screen h-screen " id="home" >
+          <div className=" flex  max-[400px]:mt-[5rem] max-[450px]:mt-[5rem] justify-center items-center  w-screen h-screen " id="home" >
         
           <div className="flex  max-[400px]:flex-col max-[450px]:flex-col  flex-row w-4/6 h-4/6 justify-center items-center rounded-md">
 
