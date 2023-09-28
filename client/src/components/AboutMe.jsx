@@ -11,11 +11,11 @@ export const AboutMe = () => {
   return (
     <div className="flex w-screen  fondo cursor-pointer mt-[1rem] max-[400px]:mb-[1rem] max-[450px]:mb-[1.5rem] " >
    
-      <div className=" flex  justify-center items-center w-screen ">
+      <div className=" flex max-[400px]:mt-[0.1rem] max-[450px]:mt-[0.1rem] mt-[6rem] justify-center items-center w-screen ">
         
-   <div className='flex max-[400px]:flex-col max-[450px]:flex-col max-[400px]:w-full max-[450px]:w-full w-4/5  h-full  z-10  mb-4' >
+   <div className='flex max-[400px]:flex-col max-[450px]:flex-col max-[400px]:w-full max-[450px]:w-full w-4/5    h-full  z-10  mb-4' >
 
-               <div className='max-[400px]:mt-[6rem] max-[450px]:mt-[6rem] w-1/2 max-[400px]:w-full max-[450px]:w-full min-[1650px]:text-lg flex p-1 rounded text-black  gap-4  flex-wrap items-center justify-center'>
+               <div className=' max-[400px]:mt-[6rem] max-[450px]:mt-[6rem] w-1/2 max-[400px]:w-full max-[450px]:w-full min-[1650px]:text-lg flex p-1 rounded text-black  gap-4  flex-wrap items-center justify-center'>
                 <div className='  w-full justify-center items-start flex flex-col pl-[1rem] pt-[0.3rem] text-3xl max-[400px]:items-center max-[450px]:items-center '>Experience</div>
                 <div className='max-[400px]:w-full max-[450px]:w-full  p-[2rem] shadow-lg shadow-gray-400 flex flex-col rounded-2xl  max-[1600px]:w-[31rem] w-[35rem] mb-[1rem] h-[13rem]'>
                <h2 className=' '> <FontAwesomeIcon icon={faCircle} size="2xs" className=' text-black'/> Calculator App</h2>

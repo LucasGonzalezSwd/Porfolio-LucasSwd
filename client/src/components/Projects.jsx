@@ -11,9 +11,9 @@ export const Projects = () => {
     <div className="">
       
       <div className=" flex justify-center w-screen mt-[1rem] mb-[1rem] ">
-              <div className='flex flex-col justify-center items-center rounded-xl max-[400px]:gap-[2.8rem] max-[450px]:gap-[3.1rem] gap-[1.8rem] max-[400px]:w-full max-[450px]:w-full w-4/5 z-10 mb-[1rem] h-full cursor-pointer' >
+              <div className='flex flex-col justify-center items-center rounded-xl max-[400px]:gap-[2.8rem] max-[450px]:gap-[3.1rem] gap-[1.8rem] max-[400px]:w-full max-[450px]:w-full w-4/5 z-10 mb-[1rem] h-full max-[400px]:mt-[0.1rem] max-[450px]:mt-[0.1rem] mt-[5rem] cursor-pointer ' >
                 
-                <div className='flex w-full max-[400px]:mt-[5rem] max-[450px]:mt-[5rem]'>
+                <div className='flex w-full max-[400px]:mt-[5rem] max-[450px]:mt-[5rem] '>
                 <p  className=' text-black text-3xl pt-[1.2rem] '>{"< Projects />"}</p>
                 </div>
                 <div className='flex max-[400px]:flex-col max-[450px]:flex-col w-full gap-[1rem]  '>

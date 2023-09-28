@@ -40,7 +40,7 @@ export const Skills = () => {
      
       <div className=" flex justify-center items-center  w-screen ">
               
-            <div className='w-4/5 gap-4 max-[400px]:flex-col max-[400px]:w-full max-[450px]:flex-col max-[450px]:w-full  flex pb-[2rem] mb-[5rem] mt-[5rem] rounded-xl h-full z-10' >
+            <div className='w-4/5 gap-4 max-[400px]:flex-col max-[400px]:w-full max-[450px]:flex-col max-[450px]:w-full  flex pb-[2rem] mb-[5rem]  rounded-xl h-full z-10 max-[400px]:mt-[0.1rem] max-[450px]:mt-[0.1rem] mt-[8rem]' >
                 
                 <div className='w-1/2 max-[400px]:w-full max-[450px]:w-full min-[1650px]:text-lg flex   text-black rounded-xl shadow-lg shadow-gray-400 gap-4  flex-wrap items-center justify-center pb-[2rem]  max-[400px]:mb-[2.5rem]  max-[450px]:mb-[2.8rem]'  >
                 <div  className='max-[400px]:mt-[2rem] max-[450px]:mt-[2rem] w-full justify-center max-[400px]:items-center max-[450px]:items-center items-start flex flex-col pl-[1rem] pt-[0.3rem] text-3xl'>{"< Skills Front-end/>"}</div>
