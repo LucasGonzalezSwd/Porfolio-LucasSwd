@@ -28,22 +28,22 @@
                 <br />
                 <p className=' text-base min-[1650px]:text-xl '> My name is <span className='text-black'>Lucas Gonzalez</span> and I'm a Full Stack Developer from Argentina. I have experience working with JavaScript, React js, Redux, NodeJS, Typescript, Jest, Express, sequelize, MySql, PostgreSql, among other technologies. I can code a website end-to-end.
                 </p>
-                <div className="flex w-full justify-evenly h-[6rem] items-center pr-[2rem]  mt-[2rem]">
+                <div className="flex w-full justify-evenly h-[6rem] items-center pr-[2rem]  mt-[2rem]  ">
                
                 <a href="https://github.com/LucasGonzalezSwd" target="_blank" rel="noreferrer">
-                <button>
+                <button className="flex2">
                 <FontAwesomeIcon className="min-[1650px]:text-5xl  text-4xl text-black hover:scale-125 transition-all duration-500 ease-in-out " icon={faGithub} id="one" />
                 </button>
                 </a>
 
                   <a href="https://www.linkedin.com/in/lucas-gonzalez-swd/" target="_blank" rel="noreferrer">
-                  <button>
-                  <FontAwesomeIcon className="min-[1650px]:text-5xl text-4xl text-black hover:scale-125 transition-all duration-500 ease-in-out " icon={faLinkedin} id="two"/>
+                  <button className="flex2">
+                  <FontAwesomeIcon className="min-[1650px]:text-5xl text-4xl text-black hover:scale-125 transition-all duration-500 ease-in-out  " icon={faLinkedin} id="two"/>
                   </button>
                   </a>
     
                   <a href={doc}  target="_blank" download="Resume Lucas Gonzalez Swd" rel="noreferrer">
-                <button>
+                <button className="flex2">
                 <FontAwesomeIcon className="min-[1650px]:text-5xl text-4xl text-black hover:scale-125 transition-all duration-500 ease-in-out "  icon={faFileLines}  id="three"/>
                 </button>
                 </a>
