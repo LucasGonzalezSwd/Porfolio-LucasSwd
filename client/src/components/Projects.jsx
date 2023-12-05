@@ -20,7 +20,7 @@ export const Projects = () => {
                 </div>
                 <div className='flex max-[400px]:flex-col max-[450px]:flex-col w-full gap-[1.4rem]  '>
                   <div className='flex max-[450px]:w-full  max-[400px]:w-full w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500 max-[450px]:h-full max-[400px]:h-full h-full '>
-                       <img className='h-[27rem] w-full' src={backimg5} alt="" />
+                       <img className='h-[27rem] max-[450px]:h-full  w-full' src={backimg5} alt="" />
                   </div>
                   <div className='flex flex-col max-[450px]:w-full   max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl p-[0.5rem]'>
                       <h1 className='text-3xl  '>Security Agency</h1>
@@ -42,7 +42,7 @@ export const Projects = () => {
                 
                 <div className='flex max-[400px]:flex-col max-[450px]:flex-col w-full gap-[1.4rem]  '>
                   <div className='flex max-[450px]:w-full  max-[400px]:w-full w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500 max-[450px]:h-full max-[400px]:h-full h-full '>
-                       <img className='h-[27rem] w-full' src={backimg6} alt="" />
+                       <img className='h-[27rem] max-[450px]:h-full  w-full' src={backimg6} alt="" />
                   </div>
                   <div className='flex flex-col max-[450px]:w-full   max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl p-[0.5rem]'>
                       <h1 className='text-3xl  '>League of cards</h1>
@@ -61,7 +61,7 @@ export const Projects = () => {
 
                 <div className='flex max-[450px]:flex-col max-[400px]:flex-col w-full gap-[1.4rem]  '>
                   <div className='flex  max-[450px]:w-full  max-[400px]:w-full w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500 max-[450px]:h-full  max-[400px]:h-full h-full'>
-                       <img className='h-[27rem] w-full' src={backimg1} alt="" />
+                       <img className='h-[27rem] max-[450px]:h-full  w-full' src={backimg1} alt="" />
                   </div>
                   <div className='flex flex-col  max-[450px]:w-full   max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl  p-[0.5rem]'>
                       <h1 className='text-3xl'>Ibiza Station</h1>
@@ -78,7 +78,7 @@ export const Projects = () => {
                 </div>
                 <div className='flex max-[400px]:flex-col max-[450px]:flex-col w-full gap-[1.4rem]  '>
                   <div className='flex max-[450px]:w-full  max-[400px]:w-full w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500 max-[450px]:h-full max-[400px]:h-full h-full '>
-                       <img className='h-[27rem] w-full' src={backimg3} alt="" />
+                       <img className='h-[27rem] max-[450px]:h-full  w-full' src={backimg3} alt="" />
                   </div>
                   <div className='flex flex-col max-[450px]:w-full   max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl p-[0.5rem]'>
                       <h1 className='text-3xl  '>Calculator App</h1>
@@ -96,7 +96,7 @@ export const Projects = () => {
                 </div>
                 <div className='flex  max-[450px]:flex-col max-[400px]:flex-col w-full gap-[1.4rem] '>
                   <div className='flex  max-[450px]:w-full   max-[400px]:w-full w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500  max-[450px]:h-full  max-[400px]:h-full h-full'>
-                       <img className='h-[27rem] w-full' src={backimg4} alt="" />
+                       <img className='h-[27rem] max-[450px]:h-full  w-full' src={backimg4} alt="" />
                   </div>
                   <div className='flex flex-col max-[450px]:w-full  max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl  p-[0.5rem] '>
                       <h1 className='text-3xl'>BarberShop Club</h1>
@@ -113,7 +113,7 @@ export const Projects = () => {
                 </div>
                 <div className='flex max-[450px]:flex-col max-[400px]:flex-col w-full gap-[1.4rem] '>
                   <div className='flex  max-[450px]:w-full  max-[400px]:w-full w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500  max-[450px]:h-full max-[400px]:h-full h-full '>
-                       <img className='h-[27rem] w-full' src={backimg2} alt="" />
+                       <img className='h-[27rem] max-[450px]:h-full  w-full' src={backimg2} alt="" />
                   </div>
                   <div className='flex flex-col max-[450px]:w-full  max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl  p-[0.5rem]'>
                       <h1 className='text-3xl'>Ecommerce <br />Mate Express</h1>
@@ -128,7 +128,7 @@ export const Projects = () => {
                 </div>
                 <div className='flex max-[450px]:flex-col max-[400px]:flex-col w-full gap-[1.4rem]'>
                   <div className='flex max-[450px]:w-full  max-[400px]:w-full w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500 max-[450px]:h-full  max-[400px]:h-full h-full  '>
-                       <img className='h-[27rem] w-full' src={backimg} alt="" />
+                       <img className='h-[27rem] max-[450px]:h-full  w-full' src={backimg} alt="" />
                   </div>
                   <div className='flex flex-col max-[450px]:w-full  max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl  p-[0.5rem]'>
                       <h1 className='text-3xl'>Food App</h1>
