@@ -8,8 +8,9 @@
   import { AboutMe } from "./AboutMe";
   import { Skills } from "./Skills";
   import { Projects } from "./Projects";
+ 
   export const Home = () => {
-
+  
     const img = "https://storage.googleapis.com/ibiza-station/perfil.jpg"; 
 
       return (
