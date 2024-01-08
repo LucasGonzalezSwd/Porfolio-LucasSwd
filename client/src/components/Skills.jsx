@@ -12,7 +12,7 @@ import imso3 from "./Images/imso3png.png"
 import jest from "./Images/jest.png"
 import JS from "./Images/JS.png"
 import node from "./Images/node.png"
-import ora from "./Images/ora.png"
+// import ora from "./Images/ora.png"
 import postgreSQL from "./Images/postgreSQL.png"
 import React2 from "./Images/React.svg.png"
 import ReactNative from "./Images/ReactNative.jpg"
@@ -28,7 +28,7 @@ import vite from "./Images/vite.png"
 import strapi from "./Images/strapi.png"
 import solidity from "./Images/solidity.png"
 import cloud from "./Images/cloud.png"
-
+import mongo from "./Images/mongo2.png"
 
 import tailwind from "./Images/tailwind.png"
 import "./Styles/skill.css"
@@ -147,7 +147,11 @@ export const Skills = () => {
                 <p className='flex text-xl text-black self-center mt-1' id='ss'>MySql</p>
                 </button>
             
-                    
+                <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
+                 <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={mongo} alt=""  id='ss'/>
+                <p className='flex text-xl text-black self-center mt-1' id='ss'>Mongo DB </p>
+                </button>
+
                 <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
                  <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={git} alt=""  id='ss'/>
                 <p className='flex text-xl text-black self-center mt-1' id='ss'>Git</p>
@@ -200,10 +204,7 @@ export const Skills = () => {
                 </button>
 
 
-                <button className='flex flex-col  hover:scale-125 transition-all duration-700 ease-in-out ' id='ss'>
-                 <img className='w-16 min-[1650px]:w-20 h-16 min-[1650px]:h-20 mx-10 mt-14 rounded object-contain' src={ora} alt=""  id='ss'/>
-                <p className='flex text-xl text-black self-center mt-1' id='ss'>Ora </p>
-                </button>
+              
               
   
                 

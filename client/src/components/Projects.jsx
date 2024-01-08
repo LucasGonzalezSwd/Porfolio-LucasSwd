@@ -6,6 +6,7 @@ import backimg4 from "./Images/barbers.png"
 import backimg3 from "./Images/calc.jpg"
 import backimg5 from "./Images/secureA.jpg"
 import backimg6 from "./Images/lolcito.jpg"
+import playmaker from "./Images/playmaker.jpg"
 import "./Styles/projects.css"
 import './Styles/home.css'
 export const Projects = () => {
@@ -20,7 +21,26 @@ export const Projects = () => {
                 </div>
                 <div className='flex max-[400px]:flex-col max-[450px]:flex-col w-full gap-[1.4rem]  '>
                   <div className='flex max-[450px]:w-full  max-[400px]:w-full w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500 max-[450px]:h-full max-[400px]:h-full h-full '>
-                       <img className='h-[25rem] max-[450px]:h-full   w-full' src={backimg5} alt="" />
+                       <img className='h-[25rem] max-[450px]:h-full  object-cover w-full' src={playmaker} alt="the project" />
+                  </div>
+                  <div className='flex flex-col max-[450px]:w-full   max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl p-[0.5rem]'>
+                      <h1 className='text-3xl  '>Security Agency</h1>
+                      <p className='mt-[1rem] max-[400px]:text-ms max-[450px]:text-ms'>
+                      This app is for any company that wants to keep track of the status of their agents, if they are enabled, if they have credentials, and more data. It has an admin panel to edit, delete, create a new agent. Still Working on Responsive Styles.
+                      </p>
+                      <div className='flex items-end  h-full gap-[1.6rem] max-[450px]:mt-[1.8rem] max-[400px]:mt-[1.5rem] pb-[1rem]'>
+                        <a href="https://security-agency-lucasgonzalezswd.vercel.app" target='_blank' rel='noreferrer'>
+                        <button className='bg-[#3699a0b9] rounded-lg p-[0.5rem] hover:scale-105 transition-all ease-in-out duration-300 w-[6rem]'>Deploy</button></a>
+                        <a href="https://github.com/LucasGonzalezSwd/securityAgency" target='_blank' rel='noreferrer'>
+                        <button  className='bg-[#3699a0b9] rounded-lg p-[0.5rem] hover:scale-105 transition-all ease-in-out duration-300 w-[6rem]'>GitHub</button></a>
+                      </div>
+
+                  </div>
+                </div>
+
+                <div className='flex max-[400px]:flex-col max-[450px]:flex-col w-full gap-[1.4rem]  '>
+                  <div className='flex max-[450px]:w-full  max-[400px]:w-full w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500 max-[450px]:h-full max-[400px]:h-full h-full '>
+                       <img className='h-[25rem] max-[450px]:h-full object-cover  w-full' src={backimg5} alt="" />
                   </div>
                   <div className='flex flex-col max-[450px]:w-full   max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl p-[0.5rem]'>
                       <h1 className='text-3xl  '>Security Agency</h1>
@@ -42,7 +62,7 @@ export const Projects = () => {
                 
                 <div className='flex max-[400px]:flex-col max-[450px]:flex-col w-full gap-[1.4rem]  '>
                   <div className='flex max-[450px]:w-full  max-[400px]:w-full w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500 max-[450px]:h-full max-[400px]:h-full h-full '>
-                       <img className='h-[25rem] max-[450px]:h-full w-full' src={backimg6} alt="" />
+                       <img className='h-[25rem] object-cover max-[450px]:h-full w-full' src={backimg6} alt="" />
                   </div>
                   <div className='flex flex-col max-[450px]:w-full   max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl p-[0.5rem]'>
                       <h1 className='text-3xl  '>League of cards</h1>
@@ -61,7 +81,7 @@ export const Projects = () => {
 
                 <div className='flex max-[450px]:flex-col max-[400px]:flex-col w-full gap-[1.4rem]  '>
                   <div className='flex  max-[450px]:w-full  max-[400px]:w-full w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500 max-[450px]:h-full  max-[400px]:h-full h-full'>
-                       <img className='h-[25rem] max-[450px]:h-full w-full' src={backimg1} alt="" />
+                       <img className='h-[25rem] object-cover max-[450px]:h-full w-full' src={backimg1} alt="" />
                   </div>
                   <div className='flex flex-col  max-[450px]:w-full   max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl  p-[0.5rem]'>
                       <h1 className='text-3xl'>Ibiza Station</h1>
@@ -78,7 +98,7 @@ export const Projects = () => {
                 </div>
                 <div className='flex max-[400px]:flex-col max-[450px]:flex-col w-full gap-[1.4rem]  '>
                   <div className='flex max-[450px]:w-full  max-[400px]:w-full w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500 max-[450px]:h-full max-[400px]:h-full h-full '>
-                       <img className='h-[25rem]  max-[450px]:h-full w-full' src={backimg3} alt="" />
+                       <img className='h-[25rem] object-cover max-[450px]:h-full w-full' src={backimg3} alt="" />
                   </div>
                   <div className='flex flex-col max-[450px]:w-full   max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl p-[0.5rem]'>
                       <h1 className='text-3xl  '>Calculator App</h1>
@@ -96,7 +116,7 @@ export const Projects = () => {
                 </div>
                 <div className='flex  max-[450px]:flex-col max-[400px]:flex-col w-full gap-[1.4rem] '>
                   <div className='flex  max-[450px]:w-full   max-[400px]:w-full w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500  max-[450px]:h-full  max-[400px]:h-full h-full'>
-                       <img className='h-[25rem] max-[450px]:h-full w-full' src={backimg4} alt="" />
+                       <img className='h-[25rem] object-cover max-[450px]:h-full w-full' src={backimg4} alt="" />
                   </div>
                   <div className='flex flex-col max-[450px]:w-full  max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl  p-[0.5rem] '>
                       <h1 className='text-3xl'>BarberShop Club</h1>
@@ -113,7 +133,7 @@ export const Projects = () => {
                 </div>
                 <div className='flex max-[450px]:flex-col max-[400px]:flex-col w-full gap-[1.4rem] '>
                   <div className='flex  max-[450px]:w-full  max-[400px]:w-full w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500  max-[450px]:h-full max-[400px]:h-full h-full '>
-                       <img className='h-[25rem] max-[450px]:h-full  w-full' src={backimg2} alt="" />
+                       <img className='h-[25rem] object-cover max-[450px]:h-full  w-full' src={backimg2} alt="" />
                   </div>
                   <div className='flex flex-col max-[450px]:w-full  max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl  p-[0.5rem]'>
                       <h1 className='text-3xl'>Ecommerce <br />Mate Express</h1>
@@ -126,11 +146,11 @@ export const Projects = () => {
 
                   </div>
                 </div>
-                <div className='flex max-[450px]:flex-col max-[400px]:flex-col w-full gap-[1.4rem]'>
+                <div className='flex max-[450px]:flex-col max-[400px]:flex-col w-full gap-[1.4rem] mb-[2rem]'>
                   <div className='flex max-[450px]:w-full  max-[400px]:w-full w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500 max-[450px]:h-full  max-[400px]:h-full h-full  '>
-                       <img className='h-[25rem] max-[450px]:h-full  w-full' src={backimg} alt="" />
+                       <img className='h-[25rem]  object-cover max-[450px]:h-full  w-full' src={backimg} alt="" />
                   </div>
-                  <div className='flex flex-col max-[450px]:w-full  max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl  p-[0.5rem]'>
+                  <div className='flex flex-col max-[450px]:w-full  max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl  p-[0.5rem] '>
                       <h1 className='text-3xl'>Food App</h1>
                       <p className='mt-[1rem]'>
                      
