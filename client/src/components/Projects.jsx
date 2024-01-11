@@ -24,12 +24,16 @@ export const Projects = () => {
                        <img className='h-[25rem] max-[450px]:h-full  object-cover w-full' src={playmaker} alt="the project" />
                   </div>
                   <div className='flex flex-col max-[450px]:w-full   max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl p-[0.5rem]'>
-                      <h1 className='text-3xl  '>Security Agency</h1>
-                      <p className='mt-[1rem] max-[400px]:text-ms max-[450px]:text-ms'>
-                      This app is for any company that wants to keep track of the status of their agents, if they are enabled, if they have credentials, and more data. It has an admin panel to edit, delete, create a new agent. Still Working on Responsive Styles.
+                      <h1 className='text-3xl  '>Casino Web</h1>
+                      <p className='mt-[1rem] max-[400px]:text-ms max-[450px]:text-ms'> 
+                      This app is for to promote the sponsors of a
+content creator. It includes an optional admin panel, allowing each content creator to create and
+delete promotions and offers whenever they want. Additionally, it features a shop that displays
+information and redirects to the creator's official store. Trial version, username: admin, password:
+admin
                       </p>
                       <div className='flex items-end  h-full gap-[1.6rem] max-[450px]:mt-[1.8rem] max-[400px]:mt-[1.5rem] pb-[1rem]'>
-                        <a href="https://security-agency-lucasgonzalezswd.vercel.app" target='_blank' rel='noreferrer'>
+                        <a href="https://playermaker-freelance.vercel.app" target='_blank' rel='noreferrer'>
                         <button className='bg-[#3699a0b9] rounded-lg p-[0.5rem] hover:scale-105 transition-all ease-in-out duration-300 w-[6rem]'>Deploy</button></a>
                         <a href="https://github.com/LucasGonzalezSwd/securityAgency" target='_blank' rel='noreferrer'>
                         <button  className='bg-[#3699a0b9] rounded-lg p-[0.5rem] hover:scale-105 transition-all ease-in-out duration-300 w-[6rem]'>GitHub</button></a>
