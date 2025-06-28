@@ -8,6 +8,8 @@ import backimg5 from "./Images/secureA.jpg"
 import backimg6 from "./Images/lolcito.jpg"
 import playmaker from "./Images/playmaker.jpg"
 import playmaker2 from "./Images/slotsmasters.jpg"
+import ChatMaster from "./Images/ChatMaster.png"
+
 import "./Styles/projects.css"
 import './Styles/home.css'
 export const Projects = () => {
@@ -20,6 +22,24 @@ export const Projects = () => {
                 <div className='flex w-full max-[400px]:mt-[5rem] max-[450px]:mt-[5rem] '>
                 <p  className=' text-black text-3xl pt-[1.2rem] '>{"< Projects />"}</p>
                 </div>
+                <div className='flex max-[400px]:flex-col max-[450px]:flex-col w-full gap-[1.4rem]  '>
+                  <div className='flex max-[450px]:w-full  max-[400px]:w-full w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500 max-[450px]:h-full max-[400px]:h-full h-full '>
+                       <img className='h-[25rem] max-[450px]:h-full  w-full object-contain' src={ChatMaster} alt="the project" />
+                  </div>
+                  <div className='flex flex-col max-[450px]:w-full   max-[400px]:w-full w-1/3 shadow-lg shadow-gray-400 rounded-xl p-[0.5rem]'>
+                      <h1 className='text-3xl  '>Chatbot AI</h1>
+                      <p className='mt-[1rem] max-[400px]:text-ms max-[450px]:text-ms'> 
+                     This app is a conversational crypto assistant powered by OpenAI and DeepSeek models. It's designed to provide expert-level responses about cryptocurrencies, DeFi, blockchain technologies, and trading strategies. It also performs real-time API requests to CoinGecko and CoinMarketCap to retrieve live prices of any asset the user asks for — delivering always up-to-date and accurate market data. This project demonstrates how AI can be combined with financial APIs to build intelligent tools for the crypto space.
+                      </p>
+                      <div className='flex items-end  h-full gap-[1.6rem] max-[450px]:mt-[1.8rem] max-[400px]:mt-[1.5rem] pb-[1rem]'>
+                        <a href="https://ia.mastercrypto-club.com/" target='_blank' rel='noreferrer'>
+                        <button className='bg-[#3699a0b9] rounded-lg p-[0.5rem] hover:scale-105 transition-all ease-in-out duration-300 w-[6rem]'>Deploy</button></a>
+                       
+                      </div>
+
+                  </div>
+                </div>
+
                 <div className='flex max-[400px]:flex-col max-[450px]:flex-col w-full gap-[1.4rem]  '>
                   <div className='flex max-[450px]:w-full  max-[400px]:w-full w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500 max-[450px]:h-full max-[400px]:h-full h-full '>
                        <img className='h-[25rem] max-[450px]:h-full  object-cover w-full' src={playmaker} alt="the project" />
@@ -42,6 +62,7 @@ admin
 
                   </div>
                 </div>
+
                 <div className='flex max-[400px]:flex-col max-[450px]:flex-col w-full gap-[1.4rem]  '>
                   <div className='flex max-[450px]:w-full  max-[400px]:w-full w-2/3 p-[0.5rem] rounded-xl shadow-lg shadow-gray-400 hover:scale-105 transition-all ease-in-out duration-500 max-[450px]:h-full max-[400px]:h-full h-full '>
                        <img className='h-[25rem] max-[450px]:h-full  object-cover w-full' src={playmaker2} alt="the project" />
